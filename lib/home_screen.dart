@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:naari/widgets/CustomCarouel.dart';
 import 'package:naari/widgets/customappBar.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -39,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: () {
                     getRandomQuote();
                   }),
+              CustomCarouel(),
             ],
           ),
         ),

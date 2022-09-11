@@ -18,6 +18,7 @@ class CustomAppBar extends StatelessWidget {
           sweetSayings[quoteIndex!],
           style: TextStyle(
             fontSize: 22,
+            color: Color.fromARGB(255, 88, 87, 83),
           ),
         ),
       ),
